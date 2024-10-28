@@ -1,7 +1,6 @@
-[client]
-showSidebarNavigation = false
-
 [theme]
 base = "dark"
 primaryColor = "#7340b7"
 textColor = "#ffffff"
+[client]
+showSidebarNavigation = false
