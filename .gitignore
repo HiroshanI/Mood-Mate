@@ -1,0 +1,5 @@
+__pycache__
+moodmate__api/prediction/text/models/
+moodmate__api/.env
+moodmate__frontend/.env
+.venv/
