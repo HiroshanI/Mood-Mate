@@ -127,19 +127,19 @@ def upload_and_detect_emotion(uploaded_file):
 # Streamlit UI for Webcam Emotion Detection
 st.title("📷 Express your thoughts")
 st.markdown(" --- ")
-st.markdown("### Webcam Emotion Detection")
-st.markdown("Use your webcam to detect emotions in real-time.")
+# st.markdown("### Webcam Emotion Detection")
+# st.markdown("Use your webcam to detect emotions in real-time.")
 
-# Webcam Start/Stop Controls
-left, right = st.columns(2)
+# # Webcam Start/Stop Controls
+# left, right = st.columns(2)
 
-if left.button("Start Webcam Detection", use_container_width=True, type='primary'):
-    stream_video_feed()
+# if left.button("Start Webcam Detection", use_container_width=True, type='primary'):
+#     stream_video_feed()
 
-if right.button("Stop Webcam Detection", use_container_width=True):
-    stop_webcam()
+# if right.button("Stop Webcam Detection", use_container_width=True):
+#     stop_webcam()
 
-st.markdown("---")
+# st.markdown("---")
 
 # Streamlit UI for Video Upload Emotion Detection
 st.markdown("### Upload Video for Emotion Detection")
