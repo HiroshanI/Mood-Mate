@@ -5,11 +5,14 @@ import numpy as np
 from PIL import Image
 import os
 from pathlib import Path
+from dotenv import load_dotenv
 
 from utils.emotions import get_encouraging_sentence, standardize_emotion_label
 
-# Set up your API base URL
-API_BASE_URL = "http://localhost:5000"  # Change this if your Flask app is hosted elsewhere
+load_dotenv()
+
+
+API_BASE_URL = os.getenv('API__URL')
 st.set_page_config(page_title="Emotion Detection", page_icon="🎭", initial_sidebar_state="expanded")
 
 
