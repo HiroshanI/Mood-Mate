@@ -42,7 +42,7 @@ input_text = c1.text_area("",
 model_options = [
     "augmented_en", 
     "augmented_si", 
-    "augmented_tm"
+    "augmented_tm",
     "original_en", 
     "original_si", 
     "original_tm", 
